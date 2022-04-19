@@ -21,7 +21,7 @@ This project is to design a solution whose functionality helps users mitigate th
 
 | Name                         | GitHub Username  | Student ID |
 | ---------------------------- | ---------------- | ---------- |
-| Ryan Messervey               |                  | 40132541   |
+| Ryan Messervey               | RyanMesservey    | 40132541   |
 | Ben Marcotte                 | benmarcotte      | 40122097   |
 | Nicolas Pinochet Brouillette | justpino7        | 40157614   |
 | Jeremy Vo Buu                | Jeremy-Vo-Buu    | 40131772   |
