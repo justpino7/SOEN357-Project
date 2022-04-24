@@ -3,6 +3,7 @@ import React, { Fragment } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Link } from "react-router-dom";
 import BarChartMoney from "./components/MoneyPage/BarChartMoney"
+import BarChartFood from './components/FoodPage/BarChartFood';
 
 // Redux
 
@@ -26,6 +27,7 @@ function App() {
             <div className="dashboardContent">
               <Routes>
                 <Route path="/" element={<BarChartMoney />} />
+                <Route path="/a" element={<BarChartFood />} />
               </Routes>
             </div>
           </section>
