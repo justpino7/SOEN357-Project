@@ -8,7 +8,7 @@ import BarChartMoney from "./components/MoneyPage/BarChartMoney"
 
 // Components
 // import Dashboard from "./components/DashboardComponent/Dashboard";
-import Toolbar from "./components/Toolbar";
+import Navbar from "./components/Navbar";
 
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
@@ -18,7 +18,7 @@ function App() {
       <Router>
         <Fragment>
           <div className="pageWrap">
-            <Toolbar />
+            <Navbar />
           </div>
 
           <section className="container">
