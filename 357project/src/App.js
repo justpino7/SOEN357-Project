@@ -2,6 +2,7 @@ import './App.css';
 import React, { Fragment } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Link } from "react-router-dom";
+import BarChartMoney from "./components/MoneyPage/BarChartMoney"
 
 // Redux
 
@@ -24,6 +25,7 @@ function App() {
             {/* <Sidebar /> */}
             <div className="dashboardContent">
               <Routes>
+                <Route path="/" element={<BarChartMoney />} />
               </Routes>
             </div>
           </section>
