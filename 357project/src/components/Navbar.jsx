@@ -22,7 +22,7 @@ export default function Navbar() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            New Navbar
+            Wastevio
           </Typography>
           <Button color="inherit">More Options</Button>
         </Toolbar>

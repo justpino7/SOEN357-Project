@@ -14,12 +14,14 @@ import Navbar from "./components/Navbar";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
+import HomePage from './components/HomePage/HomePage';
 function App() {
   return (
       <Router>
         <Fragment>
           <div className="pageWrap">
             <Navbar />
+            <HomePage/>
           </div>
 
           <section className="container">
