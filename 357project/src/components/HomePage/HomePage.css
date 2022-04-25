@@ -1,0 +1,27 @@
+.HomePageWrapper {
+    margin: 2%;
+}
+
+.HomePageHeader {
+    border-color: black;
+    border-width: thin;
+    margin: 5%;
+    text-align: center;
+    width: 100%;
+    border: 2%;
+    background-color:;
+
+}
+
+.CardContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: flex-start;
+    align-content: space-around;
+}
+
+.Card {
+    padding: 2%;
+}
+
