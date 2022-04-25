@@ -25,10 +25,22 @@ export const options = {
   plugins: {
     legend: {
       position: 'top',
+      labels:{
+        font:{
+          size: 20,
+          family: "'Roboto','Helvetica','Arial',sans-serif",
+          color: '#123456'
+        }
+      }
     },
     title: {
       display: true,
       text: 'Money saved per week',
+      font:{
+        size: 20,
+        family: "'Roboto','Helvetica','Arial',sans-serif",
+        color: '#000000'
+      }
     },
   },
 };
@@ -43,14 +55,9 @@ export const data = {
       data: [33, 25, 22, 36],
       backgroundColor: '#12AA00B3'
     }, 
-    {
-        label: 'Total leftover value',
-        data: [38, 27, 30, 44],
-        backgroundColor: '#000000B3'
-      }
   ]
 };
 
 export default function BarChartMoney() {
-  return (<div style={{width: '40%'}}><Bar options={options} data={data} /></div>);
+  return (<div style={{width: '50%'}}><Bar options={options} data={data} /></div>);
 }
