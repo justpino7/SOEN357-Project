@@ -1,3 +1,4 @@
-abc{
-    background-color: var(--money-green);
+.chart{
+    width: 300px !important;
+    height: 30% !important;
 }
