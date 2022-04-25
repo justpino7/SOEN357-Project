@@ -3,8 +3,7 @@ import React, { Fragment } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Link } from "react-router-dom";
 import BarChartMoney from "./components/MoneyPage/BarChartMoney"
-import BarChartFood from './components/FoodPage/BarChartFood';
-
+import MoneyPage from './components/MoneyPage/MoneyPage';
 // Redux
 
 // Components
@@ -21,15 +20,14 @@ function App() {
         <Fragment>
           <div className="pageWrap">
             <Navbar />
-            <HomePage/>
           </div>
 
           <section className="container">
             {/* <Sidebar /> */}
             <div className="dashboardContent">
               <Routes>
-                <Route path="/" element={<BarChartMoney />} />
-                <Route path="/a" element={<BarChartFood />} />
+                <Route path="/" element={<HomePage />} />
+                <Route path="/finance" element={<MoneyPage />} />
               </Routes>
             </div>
           </section>

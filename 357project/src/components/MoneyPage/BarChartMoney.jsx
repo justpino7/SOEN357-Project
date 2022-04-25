@@ -21,6 +21,7 @@ ChartJS.register(
 
 export const options = {
   responsive: true,
+  maintainAspectratio: false,
   plugins: {
     legend: {
       position: 'top',
@@ -32,24 +33,24 @@ export const options = {
   },
 };
 
-const labels = ['March 6th', 'March 13th', 'March 20th', 'March 27th', 'April 3rd', 'April 10th', 'April 17th', 'April 24th'];
+const labels = ['April 3rd', 'April 10th', 'April 17th', 'April 24th'];
 
 export const data = {
   labels,
   datasets: [
     {
       label: 'Money Saved',
-      data: [26, 18, 29, 16, 33, 25, 22, 36],
+      data: [33, 25, 22, 36],
       backgroundColor: '#12AA00B3'
     }, 
     {
         label: 'Total leftover value',
-        data: [33, 22, 29, 25, 38, 27, 30, 44],
+        data: [38, 27, 30, 44],
         backgroundColor: '#000000B3'
       }
   ]
 };
 
 export default function BarChartMoney() {
-  return <Bar options={options} data={data} />;
+  return (<div style={{width: '40%'}}><Bar options={options} data={data} /></div>);
 }
