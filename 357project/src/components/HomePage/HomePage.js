@@ -8,7 +8,7 @@ export default function HomePage() {
   return (
     <div className='HomePageWrapper'>
         <div className='HomePageHeader'>
-            <h1>Overview</h1>
+            <div className="title">Overview</div>
         </div>
             <div className="CardContainer">
                 <div className='Card'>
@@ -32,6 +32,22 @@ export default function HomePage() {
                 <div className='Card'>
                     <FoodCard/>
                 </div>
+                <div className='Card'>
+                    <FoodCard/>
+                </div>
+                <div className='Card'>
+                    <FoodCard/>
+                </div>
+                <div className='Card'>
+                    <FoodCard/>
+                </div>
+                <div className='Card'>
+                    <FoodCard/>
+                </div>
+                <div className='Card'>
+                    <FoodCard/>
+                </div>
+                
             </div>
             <div className='LeftoversList'>
                 Leftovers List
