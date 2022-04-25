@@ -19,13 +19,12 @@ function App() {
   return (
       <Router>
         <Fragment>
-          <div className="pageWrap">
+          <div className="navBarWrap">
             <Navbar />
           </div>
 
-          <section className="container">
-            {/* <Sidebar /> */}
-            <div className="dashboardContent">
+          <section>
+            <div>
               <Routes>
                 <Route path="/" element={<HomePage />} />
                 <Route path="/finance" element={<MoneyPage />} />
