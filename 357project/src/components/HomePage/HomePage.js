@@ -49,8 +49,10 @@ export default function HomePage() {
                 </div>
                 
             </div>
-            <div className='LeftoversList'>
+            <div className='title'>
                 Leftovers List
+            </div>
+            <div className='LeftoversList'>
                 <FoodList/>
             </div>
             <div className='WeeklyCalendar'>

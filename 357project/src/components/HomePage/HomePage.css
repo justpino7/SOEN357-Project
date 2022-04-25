@@ -7,34 +7,64 @@
     width: 100%;
     margin-top: 1%;
     background-image: url("../../Images/FoodWaste.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     padding: 2%;
     border-style: solid;
     border-width: 1%;
-    border-color: black;
     align-items: center;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 25px;
 }
 
 .CardContainer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-start;
-    align-content: flex-start;
+    justify-content: center;
     width: auto;
     gap: 2%;
     overflow-y: scroll;
     height: 400px;
     padding: 2%;
     margin-top: 2%;
+    background-image: url("../../Images/FoodWaste.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 2%;
+    border-style: inset;
+    border-width: 10px;
+    border-top-color: #3366ff;
+    border-left-color: #3366ff;
+    border-right-color: #85A3FF;
+    border-bottom-color: #85A3FF;
 }
 
 .Card {
     margin: 2%;
+    border-style: solid;
+    border-color: black;
+    -moz-box-shadow:    1px 1px 3px 4px rgb(16, 22, 66);
+    -webkit-box-shadow: 1px 1px 3px 4px rgb(66, 16, 16);
+    box-shadow:         1px 1px 3px 4px rgb(66, 16, 16);
+    
 }
 
 .title {
-    text-size-adjust: ;
+    font-size: 400%;
+    background-color: #68a0b0;
+    margin: auto;
+    width: fit-content;
+    border-style: solid;
+    border-radius: 25px;
+    font-family: monospace;
+    padding: 1%;
+    -webkit-backdrop-filter: blur(8px);  /* Safari 9+ */
+    backdrop-filter: blur(8px); /* Chrome and Opera */
+    box-shadow: 0px 10px 15px 10px rgb(0 0 0 / 15%);
+    background-color: rgb(228 228 228 / 15%);
 }
