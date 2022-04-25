@@ -3,12 +3,8 @@ import React, { Fragment } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Link } from "react-router-dom";
 import BarChartMoney from "./components/MoneyPage/BarChartMoney"
-<<<<<<< HEAD
-import BarChartFood from './components/FoodPage/BarChartFood';
-import FoodPage from "./components/FoodPage/FoodPage";
-=======
 import MoneyPage from './components/MoneyPage/MoneyPage';
->>>>>>> e386166903117ca65faa6cef6a9e35ef146d434b
+import FoodPage from "./components/FoodPage/FoodPage";
 // Redux
 
 // Components
@@ -31,13 +27,9 @@ function App() {
             {/* <Sidebar /> */}
             <div className="dashboardContent">
               <Routes>
-<<<<<<< HEAD
-                <Route path="/" element={<BarChartMoney />} />
-                <Route path="/a" element={<FoodPage />} />
-=======
                 <Route path="/" element={<HomePage />} />
                 <Route path="/finance" element={<MoneyPage />} />
->>>>>>> e386166903117ca65faa6cef6a9e35ef146d434b
+                <Route path="/food" element={<FoodPage/>} />
               </Routes>
             </div>
           </section>

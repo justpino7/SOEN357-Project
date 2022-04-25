@@ -1,4 +1,5 @@
 import React from 'react';
+import "./BarChartFood.css";
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -46,5 +47,5 @@ export const data = {
 };
 
 export default function BarChartFood() {
-  return <Bar options={options} data={data} />;
+  return (<div style={{width: '40%'}}><Bar options={options} data={data} /></div>);
 }
