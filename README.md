@@ -2,6 +2,7 @@
 
 ## Website
 
+https://justpino7.github.io/
 
 ## Description
 This project is to design a solution whose functionality helps users mitigate the problem of food waste at home
