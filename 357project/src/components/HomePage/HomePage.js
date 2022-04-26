@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import FoodCard from './FoodCards/FoodCard'
 import FoodList from '../FoodList'
 import  Bread from './FoodCards/Bread'
@@ -49,9 +50,11 @@ export default function HomePage() {
                     </div>
                 </div>
                 <div className="OptionContainer">
+                    <Link to='/finance'>
                     <button className='FormButton'>
                         Add Food
                     </button>
+                    </Link>
 
                 </div>    
             </div>
