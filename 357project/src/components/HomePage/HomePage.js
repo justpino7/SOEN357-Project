@@ -1,6 +1,7 @@
 import React from 'react'
 import FoodCard from '../FoodCard'
 import FoodList from '../FoodList'
+import Calendar from './Calendar'
 
 import './HomePage.css';
 

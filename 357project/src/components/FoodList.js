@@ -12,22 +12,27 @@ function createData(name, portion, expiresIn) {
 }
 
 const rows = [
-  createData('Frozen yoghurt', 159, 6.0),
-  createData('Ice cream sandwich', 237, 9.0),
-  createData('Eclair', 262, 16.0),
-  createData('Cupcake', 305, 3.7),
-  createData('Gingerbread', 356, 16.0),
+  createData('Wednesday, April 27th', 'General Tao leftovers', '8$'),
+  createData('Thursday, April 28th', 'Yogurt, Strawberries, Raw chicken', '3$, 7$, 11$'),
+  createData('Friday, April 29th', 'Green onions', '1$'),
+  createData('Saturday, April 30th', 'None', ''),
+  createData('Sunday, May 1st', 'Pot of chicken noodle soup', '12$'),
+  createData('Monday, May 2nd', '', '12$'),
+  createData('Tuesday, May 3rd', 'Bread, Carrots', '4$, 3$'),
+  createData('Wednesday, May 4th', 'Pot of chicken noodle soup', '12$'),
+  createData('Thursday, May 5th', 'Pot of chicken noodle soup', '12$'),
+  createData('Friday, May 6th', 'Pot of chicken noodle soup', '12$'),
 ];
 
 export default function DenseTable() {
   return (
-    <TableContainer component={Paper}>
+    <TableContainer style={{width: '45%'}}component={Paper}>
       <Table sx={{ minWidth: 650 }} size="small" aria-label="a dense table">
         <TableHead>
           <TableRow>
-            <TableCell>Type of Food</TableCell>
-            <TableCell align="right">Portions</TableCell>
-            <TableCell align="right">Expires in (days)</TableCell>
+            <TableCell>Expiration Date</TableCell>
+            <TableCell align="right">Food</TableCell>
+            <TableCell align="right">Value</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>

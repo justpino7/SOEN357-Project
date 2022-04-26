@@ -108,7 +108,7 @@
 }
 
 .Card {
-    margin: 2%;
+    /* margin: 2%; */
     border-style: solid;
     border-color: black;
     -moz-box-shadow:    1px 1px 3px 4px rgb(16, 22, 66);
