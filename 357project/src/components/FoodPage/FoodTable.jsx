@@ -12,7 +12,7 @@ const columns = [
   { id: 'name', label: 'Name', minWidth: 170 },
   {
     id: 'expiredCount',
-    label: 'expiredCount',
+    label: 'Times Expired',
     minWidth: 170,
     align: 'right',
     format: (value) => value.toLocaleString('en-US'),
@@ -71,7 +71,7 @@ export default function StickyHeadTable() {
                     {columns.map((column) => {
                       const value = row[column.id];
                       return (
-                        <TableCell key={column.id} align={column.align}>
+                        <TableCell key='Times Expired' align={column.align}>
                           {column.format && typeof value === 'number'
                             ? column.format(value)
                             : value}
