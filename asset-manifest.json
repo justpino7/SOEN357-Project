@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3f611a1b.css",
+    "main.js": "/static/js/main.9d0969b9.js",
+    "static/media/FoodWaste.jpg": "/static/media/FoodWaste.9d097fee708e738e5fe1.jpg",
+    "static/media/GreenOnions.jpg": "/static/media/GreenOnions.6f4635248d0252b5ebb5.jpg",
+    "static/media/FoodLeft.jpg": "/static/media/FoodLeft.720934c1eac974063c63.jpg",
+    "static/media/FoodRight.jpg": "/static/media/FoodRight.16443404a272118bf6c7.jpg",
+    "static/media/Yogurt.jpg": "/static/media/Yogurt.995f48776374afadfe50.jpg",
+    "static/media/PotOfSoup.jpg": "/static/media/PotOfSoup.989560a1d6cf3f448330.jpg",
+    "static/media/3dBG2.webp": "/static/media/3dBG2.f979588052cb1ba301eb.webp",
+    "static/media/Strawberries.jpg": "/static/media/Strawberries.e5c9f004da5d1665a2e3.jpg",
+    "index.html": "/index.html",
+    "main.3f611a1b.css.map": "/static/css/main.3f611a1b.css.map",
+    "main.9d0969b9.js.map": "/static/js/main.9d0969b9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f611a1b.css",
+    "static/js/main.9d0969b9.js"
+  ]
+}
