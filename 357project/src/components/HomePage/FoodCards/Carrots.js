@@ -5,7 +5,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-import lizard from './CardImages/lizard.jpg'
+import carrots from './CardImages/Carrots.jpg'
 import './FoodCard.css'
 
 export default function Carrots() {
@@ -15,7 +15,7 @@ export default function Carrots() {
         component="img"
         alt="green iguana"
         height="120"
-        image={lizard}
+        image={carrots}
       />
       <CardContent>
         <Typography gutterBottom variant="h6" component="div">

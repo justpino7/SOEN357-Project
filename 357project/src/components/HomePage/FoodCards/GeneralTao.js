@@ -5,7 +5,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-import lizard from './CardImages/lizard.jpg'
+import generalTao from './CardImages/GeneralTao.jpg'
 import './FoodCard.css'
 
 export default function GeneralTao() {
@@ -15,7 +15,7 @@ export default function GeneralTao() {
         component="img"
         alt="green iguana"
         height="120"
-        image={lizard}
+        image={generalTao}
       />
       <CardContent>
         <Typography gutterBottom variant="h6" component="div">

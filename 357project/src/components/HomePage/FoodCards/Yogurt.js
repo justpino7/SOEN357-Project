@@ -5,7 +5,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-import lizard from './CardImages/lizard.jpg'
+import yogurt from './CardImages/Yogurt.jpg'
 import './FoodCard.css'
 
 export default function Yogurt() {
@@ -15,11 +15,11 @@ export default function Yogurt() {
         component="img"
         alt="green iguana"
         height="120"
-        image={lizard}
+        image={yogurt}
       />
       <CardContent>
         <Typography gutterBottom variant="h6" component="div">
-          Lizard
+          Yogurt
         </Typography>
         <Typography gutterBottom component="div">
           6 days | <span className='green'>3$</span>
