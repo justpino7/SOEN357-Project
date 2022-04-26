@@ -12,10 +12,18 @@ import './MoneyPage.css'
 import Typography from "@mui/material/Typography";
 function MoneyPage() {
   return (
-      <div className='maindiv'>
-          <BarChartMoney></BarChartMoney>
-          <RightMoney></RightMoney>
+    <div className="FinanceContainer">
+      <div className="PageTitle">
+        <h1>Total Savings</h1>
       </div>
+      <div className='ChartContainer'>
+        <BarChartMoney></BarChartMoney>
+      </div>
+      <div className="TextContainer">
+        <RightMoney></RightMoney>
+      </div>      
+    </div>
+
   );
 }
 

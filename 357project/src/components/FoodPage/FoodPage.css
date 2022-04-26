@@ -3,16 +3,47 @@
     box-shadow: 2px 2px 9px -3px #000000;
     padding: 20px;
     margin: 20px;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    border-style: solid;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.FoodPageTitle {
+    font-size: 200%;
+    background-color: #68a0b0;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    margin-right: auto;
+    margin-left: auto;
+    width: fit-content;
+    border-style: solid;
+    border-radius: 25px;
+    font-family: monospace;
+    padding: 1%;
+    -webkit-backdrop-filter: blur(8px);  /* Safari 9+ */
+    backdrop-filter: blur(8px); /* Chrome and Opera */
+    box-shadow: 0px 10px 15px 10px rgb(0 0 0 / 15%);
+    background-color: rgb(228 228 228 / 15%);
 }
 
 .FoodTableTitle{
     font-weight: 500;
+    font-size: large;
+    margin: auto;
     margin-bottom: 15px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .FoodPageContainer{
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
+}
+
+.FoodTable {
+    
 }
