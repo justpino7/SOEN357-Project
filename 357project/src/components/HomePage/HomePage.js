@@ -47,12 +47,6 @@ export default function HomePage() {
                     <div className='Card'>
                         <Carrots/>
                     </div>
-                    <div className='Card'>
-                        <FoodCard/>
-                    </div>
-                    <div className='Card'>
-                        <FoodCard/>
-                    </div> 
                 </div>
                 <div className="OptionContainer">
                     <button className='FormButton'>
