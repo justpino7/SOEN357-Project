@@ -2,7 +2,7 @@
   "name": "justpino7-profile",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://{justpino7}.github.io"
+  "homepage": "https://{justpino7}.github.io",
   "dependencies": {
     "-": "^0.0.1",
     "@emotion/react": "^11.9.0",
