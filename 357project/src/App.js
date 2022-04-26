@@ -22,17 +22,16 @@ function App() {
         <Fragment>
           <div className="navBarWrap">
             <Navbar />
+            <section>
+              <div>
+                <Routes>
+                  <Route path="/" element={<HomePage />} />
+                  <Route path="/finance" element={<MoneyPage />} />
+                  <Route path="/food" element={<FoodPage/>} />
+                </Routes>
+              </div>
+            </section>
           </div>
-
-          <section>
-            <div>
-              <Routes>
-                <Route path="/" element={<HomePage />} />
-                <Route path="/finance" element={<MoneyPage />} />
-                <Route path="/food" element={<FoodPage/>} />
-              </Routes>
-            </div>
-          </section>
         </Fragment>
       </Router>      
     </div>
