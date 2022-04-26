@@ -13,7 +13,7 @@ function FoodPage() {
           <BarChartFood></BarChartFood> 
         <div className="FoodTableContainer">
           <div className="FoodTableTitle">
-            Be Careful of These Foods!!
+            Most expired foods
           </div>
           <FoodTable/>            
         </div>
