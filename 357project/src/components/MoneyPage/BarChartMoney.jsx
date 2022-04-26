@@ -53,7 +53,7 @@ export const data = {
     {
       label: 'Money Saved',
       data: [33, 25, 22, 36],
-      backgroundColor: '#12AA00B3'
+      backgroundColor: '#2e7d32B3'
     }, 
   ]
 };

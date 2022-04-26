@@ -41,7 +41,7 @@ export const data = {
     {
       label: 'Percentage',
       data: [40, 80, 100, 60, 81, 83, 75, 84],
-      backgroundColor: '#12AA00B3'
+      backgroundColor: '#2e7d32B3'
     }, 
   ]
 };

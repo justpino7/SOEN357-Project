@@ -1,7 +1,6 @@
 import React from 'react'
-import FoodCard from '../FoodCard'
+import FoodCard from './FoodCards/FoodCard'
 import FoodList from '../FoodList'
-import Calendar from './Calendar'
 
 import './HomePage.css';
 
@@ -56,8 +55,9 @@ export default function HomePage() {
             </div>
 
             <div className='title2'>
-                Weekly Calendar
+                Calendar
             </div>
+            <FoodList/>
     </div>
   )
 }

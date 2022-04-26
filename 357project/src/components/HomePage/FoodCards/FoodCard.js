@@ -5,7 +5,8 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-import lizard from '../Images/lizard.jpg'
+import lizard from './CardImages/lizard.jpg'
+import './FoodCard.css'
 
 export default function FoodCard() {
   return (
@@ -20,9 +21,12 @@ export default function FoodCard() {
         <Typography gutterBottom variant="h6" component="div">
           Lizard
         </Typography>
+        <Typography gutterBottom component="div">
+          2 days | <span className='green'>8$</span>
+        </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">Mark as Used</Button>
+        <Button variant='outlined' color='success' size="small">Mark as Used</Button>
       </CardActions>
     </Card>
   );
