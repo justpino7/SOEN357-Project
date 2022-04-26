@@ -1,7 +1,15 @@
 import React from 'react'
 import FoodCard from './FoodCards/FoodCard'
 import FoodList from '../FoodList'
-
+import  Bread from './FoodCards/Bread'
+import  Carrots from './FoodCards/Carrots'
+import  Chicken from './FoodCards/Chicken'
+import  GeneralTao from './FoodCards/GeneralTao'
+import  Milk from './FoodCards/Milk'
+import  Onions from './FoodCards/Onions'
+import  Soup from './FoodCards/Soup'
+import  Strawberries from './FoodCards/Strawberries'
+import  Yogurt from './FoodCards/Yogurt'
 import './HomePage.css';
 
 export default function HomePage() {
@@ -13,31 +21,31 @@ export default function HomePage() {
             <div className='ContentContainer'>
                 <div className="CardContainer">
                     <div className='Card'>
-                        <FoodCard/>
+                        <GeneralTao/>
                     </div>
                     <div className='Card'>
-                        <FoodCard/>
+                        <Chicken/>
                     </div>
                     <div className='Card'>
-                        <FoodCard/>
+                        <Onions/>
                     </div>
                     <div className='Card'>
-                        <FoodCard/>
+                        <Milk/>
                     </div>
                     <div className='Card'>
-                        <FoodCard/>
+                        <Soup/>
                     </div>
                     <div className='Card'>
-                        <FoodCard/>
+                        <Yogurt/>
                     </div>
                     <div className='Card'>
-                        <FoodCard/>
+                        <Strawberries/>
                     </div>
                     <div className='Card'>
-                        <FoodCard/>
+                        <Bread/>
                     </div>
                     <div className='Card'>
-                        <FoodCard/>
+                        <Carrots/>
                     </div>
                     <div className='Card'>
                         <FoodCard/>

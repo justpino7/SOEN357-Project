@@ -13,11 +13,11 @@ function createData(name, portion, expiresIn) {
 }
 
 const rows = [
-  createData('Wednesday, April 27th', 'General Tao leftovers', '8$'),
+  createData('Wednesday, April 27th', 'General Tao', '8$'),
   createData('Thursday, April 28th', 'Raw chicken', '11$'),
   createData('Friday, April 29th', 'Green onions', '1$'),
   createData('Saturday, April 30th', 'Milk', '4$'),
-  createData('Sunday, May 1st', 'Pot of chicken noodle soup', '12$'),
+  createData('Sunday, May 1st', 'Pot soup', '12$'),
   createData('Monday, May 2nd', 'Yogurt, Strawberries', '3$, 7$'),
   createData('Tuesday, May 3rd', 'Bread, Carrots', '4$, 3$'),
 ];
