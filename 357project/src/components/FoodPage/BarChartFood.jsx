@@ -22,13 +22,26 @@ ChartJS.register(
 
 export const options = {
   responsive: true,
+  maintainAspectratio: false,
   plugins: {
     legend: {
       position: 'top',
+      labels:{
+        font:{
+          size: 20,
+          family: "'Roboto','Helvetica','Arial',sans-serif",
+          color: '#123456'
+        }
+      }
     },
     title: {
       display: true,
       text: 'Percentage of items used per week',
+      font:{
+        size: 20,
+        family: "'Roboto','Helvetica','Arial',sans-serif",
+        color: '#000000'
+      }
     },
   },
 };
