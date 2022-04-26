@@ -9,7 +9,7 @@ function FoodPage() {
       <div className="FoodPageContainer">
         <BarChartFood/> 
         <div className="FoodTableContainer">
-          <div className="FoodTableTitle"><Typography variant='h6'>Be Careful of These Foods!!</Typography></div>
+          <div className="FoodTableTitle"><Typography variant='h6'>Most common foods wasted:</Typography></div>
           <FoodTable/>
         </div>
       </div>

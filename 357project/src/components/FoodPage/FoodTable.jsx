@@ -25,28 +25,12 @@ function createData(name, expiredCount) {
 }
 
 const rows = [
-  createData('Avocado', 27),  
-  createData('Strawberries', 24),   
-  createData('Bread', 21),   
-  createData('Salsa', 21),   
-  createData('Milk', 16),   
-  createData('Apple', 16),   
-  createData('Mushroom', 12),   
-  createData('Leftover Spaghetti', 12),   
-  createData('Blueberries', 10),   
-  createData('Kiwi', 7),  
-  createData('Cake', 6), 
-  createData('Mango', 2),  
-  createData('Poptart', 0), 
-  createData('Peanut Butter', 0),
-  createData('Brownies', 0),   
-  createData('Banana', 0),   
-  createData('Orange', 0),   
-  createData('Tangerine', 0),   
-  createData('Leftover Boustan', 0),   
-  createData('Yogurt', 0),
-  createData('Ham', 0),
-  createData('Ribs', 0),
+  createData('Avocado', 8),  
+  createData('Green onions', 7),
+  createData('Strawberries', 6),   
+  createData('Bread', 4),   
+  createData('Milk', 3),   
+  createData('Yogurt', 2),
 ];
 
 export default function StickyHeadTable() {
@@ -81,7 +65,6 @@ export default function StickyHeadTable() {
           </TableHead>
           <TableBody>
             {rows
-              .slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage)
               .map((row) => {
                 return (
                   <TableRow hover role="checkbox" tabIndex={-1} key={row.code}>
@@ -101,15 +84,6 @@ export default function StickyHeadTable() {
           </TableBody>
         </Table>
       </TableContainer>
-      <TablePagination
-        rowsPerPageOptions={[10, 25, 100]}
-        component="div"
-        count={rows.length}
-        rowsPerPage={rowsPerPage}
-        page={page}
-        onPageChange={handleChangePage}
-        onRowsPerPageChange={handleChangeRowsPerPage}
-      />
     </Paper>
   );
 }
