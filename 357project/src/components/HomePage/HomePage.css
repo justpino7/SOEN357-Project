@@ -1,5 +1,7 @@
 .HomePageWrapper {
+
 }
+
 
 .HomePageHeader {
     border-color: black;
@@ -20,40 +22,6 @@
     border-radius: 25px;
 }
 
-.CardContainer {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: auto;
-    gap: 2%;
-    overflow-y: scroll;
-    height: 400px;
-    padding: 2%;
-    margin-top: 2%;
-    background-image: url("../../Images/FoodWaste.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-bottom: 2%;
-    border-style: inset;
-    border-width: 10px;
-    border-top-color: #3366ff;
-    border-left-color: #3366ff;
-    border-right-color: #85A3FF;
-    border-bottom-color: #85A3FF;
-}
-
-.Card {
-    margin: 2%;
-    border-style: solid;
-    border-color: black;
-    -moz-box-shadow:    1px 1px 3px 4px rgb(16, 22, 66);
-    -webkit-box-shadow: 1px 1px 3px 4px rgb(66, 16, 16);
-    box-shadow:         1px 1px 3px 4px rgb(66, 16, 16);
-    
-}
-
 .title {
     font-size: 400%;
     background-color: #68a0b0;
@@ -67,4 +35,127 @@
     backdrop-filter: blur(8px); /* Chrome and Opera */
     box-shadow: 0px 10px 15px 10px rgb(0 0 0 / 15%);
     background-color: rgb(228 228 228 / 15%);
+}
+
+.title2 {
+    font-size: 300%;
+    background-color: #68a0b0;
+    margin: auto;
+    width: fit-content;
+    border-style: solid;
+    border-radius: 25px;
+    font-family: monospace;
+    padding: 1%;
+    -webkit-backdrop-filter: blur(8px);  /* Safari 9+ */
+    backdrop-filter: blur(8px); /* Chrome and Opera */
+    box-shadow: 0px 10px 15px 10px rgb(0 0 0 / 15%);
+    background-color: rgb(228 228 228 / 15%);
+}
+
+.ContentContainer {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.CardContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 45%;
+    gap: 2%;
+    overflow-y: scroll;
+    height: 400px;
+    padding: 2%;
+    margin-top: 2%;
+    background-image: url("../../Images/FoodLeft.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 2%;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-top-color: #70944C;
+    border-left-color: #70944C;
+    border-right-color: #70944C;
+    border-bottom-color: #70944C;
+}
+
+.OptionContainer {
+    display: flex;
+    flex-direction: row;
+    width: 45%;
+    gap: 2%;
+    overflow-y: scroll;
+    height: 400px;
+    padding: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 10px;
+    background-image: url("../../Images/FoodRight.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-style: solid;
+    border-width: 5px;
+    border-top-color: #70944C;
+    border-left-color: #70944C;
+    border-right-color: #70944C;
+    border-bottom-color: #70944C;
+}
+
+.Card {
+    margin: 2%;
+    border-style: solid;
+    border-color: black;
+    -moz-box-shadow:    1px 1px 3px 4px rgb(16, 22, 66);
+    -webkit-box-shadow: 1px 1px 3px 4px rgb(66, 16, 16);
+    box-shadow:         1px 1px 3px 4px rgb(66, 16, 16);   
+}
+
+.FormButton {
+  appearance: none;
+  background-color: #FFFFFF;
+  border-radius: 40em;
+  border-style: none;
+  box-shadow: #ADCFFF 0 -12px 6px inset;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -.24px;
+  margin: 0;
+  outline: none;
+  padding: 3%;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  height: 35%;
+  }
+
+.FormButton:hover {
+  background-color: #FFC229;
+  box-shadow: #FF6314 0 -6px 8px inset;
+  transform: scale(1.125);
+}
+
+.FormButton:active {
+  transform: scale(1.025);
+}
+
+@media (min-width: 768px) {
+  .FormButton {
+    font-size: 1.5rem;
+    padding: 2%;
+  }
 }

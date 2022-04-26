@@ -3,6 +3,14 @@
   --money-green: #12AA00;
 }
 
+.appBackground{
+  background-image: url("Images/3dBG2.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+
 .navBarWrap {
   margin: 0;
   height: 100%;
