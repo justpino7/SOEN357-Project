@@ -17,6 +17,7 @@ import Typography from "@mui/material/Typography";
 import HomePage from './components/HomePage/HomePage';
 function App() {
   return (
+    <div className="appBackground">
       <Router>
         <Fragment>
           <div className="navBarWrap">
@@ -33,7 +34,9 @@ function App() {
             </div>
           </section>
         </Fragment>
-      </Router>
+      </Router>      
+    </div>
+
   );
 }
 

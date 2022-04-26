@@ -11,53 +11,52 @@ export default function HomePage() {
         <div className='HomePageHeader'>
             <div className="title">Overview</div>
         </div>
-            <div className="CardContainer">
-                <div className='Card'>
-                    <FoodCard/>
+            <div className='ContentContainer'>
+                <div className="CardContainer">
+                    <div className='Card'>
+                        <FoodCard/>
+                    </div>
+                    <div className='Card'>
+                        <FoodCard/>
+                    </div>
+                    <div className='Card'>
+                        <FoodCard/>
+                    </div>
+                    <div className='Card'>
+                        <FoodCard/>
+                    </div>
+                    <div className='Card'>
+                        <FoodCard/>
+                    </div>
+                    <div className='Card'>
+                        <FoodCard/>
+                    </div>
+                    <div className='Card'>
+                        <FoodCard/>
+                    </div>
+                    <div className='Card'>
+                        <FoodCard/>
+                    </div>
+                    <div className='Card'>
+                        <FoodCard/>
+                    </div>
+                    <div className='Card'>
+                        <FoodCard/>
+                    </div>
+                    <div className='Card'>
+                        <FoodCard/>
+                    </div> 
                 </div>
-                <div className='Card'>
-                    <FoodCard/>
-                </div>
-                <div className='Card'>
-                    <FoodCard/>
-                </div>
-                <div className='Card'>
-                    <FoodCard/>
-                </div>
-                <div className='Card'>
-                    <FoodCard/>
-                </div>
-                <div className='Card'>
-                    <FoodCard/>
-                </div>
-                <div className='Card'>
-                    <FoodCard/>
-                </div>
-                <div className='Card'>
-                    <FoodCard/>
-                </div>
-                <div className='Card'>
-                    <FoodCard/>
-                </div>
-                <div className='Card'>
-                    <FoodCard/>
-                </div>
-                <div className='Card'>
-                    <FoodCard/>
-                </div>
-                <div className='Card'>
-                    <FoodCard/>
-                </div>
-                
+                <div className="OptionContainer">
+                    <button className='FormButton'>
+                        Add Food
+                    </button>
+
+                </div>    
             </div>
-            <div className='title'>
-                Leftovers List
-            </div>
-            <div className='LeftoversList'>
-                <FoodList/>
-            </div>
-            <div className='WeeklyCalendar'>
-                <Calendar/>
+
+            <div className='title2'>
+                Weekly Calendar
             </div>
     </div>
   )

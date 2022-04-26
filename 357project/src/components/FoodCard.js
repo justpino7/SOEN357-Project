@@ -22,8 +22,7 @@ export default function FoodCard() {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">Add Portion</Button>
-        <Button size="small">Remove Portion</Button>
+        <Button size="small">Mark as Used</Button>
       </CardActions>
     </Card>
   );
