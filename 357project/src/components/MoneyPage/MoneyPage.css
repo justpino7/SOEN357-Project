@@ -1,5 +1,41 @@
-.maindiv {
+.FinanceContainer {
+    
+}
+
+.ChartContainer {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-width: 5px;
+    border-top-color: #70944C;
+    border-left-color: #70944C;
+    border-right-color: #70944C;
+    border-bottom-color: #70944C;
+    height: 400px;
+    margin: 2%;
+    margin-top: 10%;
+    height: fit-content;
+}
+
+.TextContainer {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.PageTitle {
+    font-size: 200%;
+    background-color: #68a0b0;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-right: auto;
+    margin-left: auto;
+    width: fit-content;
+    border-style: solid;
+    border-radius: 25px;
+    font-family: monospace;
+    padding: 1%;
+    -webkit-backdrop-filter: blur(8px);  /* Safari 9+ */
+    backdrop-filter: blur(8px); /* Chrome and Opera */
+    box-shadow: 0px 10px 15px 10px rgb(0 0 0 / 15%);
+    background-color: rgb(228 228 228 / 15%);
 }

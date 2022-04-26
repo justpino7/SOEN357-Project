@@ -49,3 +49,4 @@ export const data = {
 export default function BarChartFood() {
   return (<div style={{width: '40%'}}><Bar options={options} data={data} /></div>);
 }
+

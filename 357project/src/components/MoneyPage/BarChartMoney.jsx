@@ -59,5 +59,8 @@ export const data = {
 };
 
 export default function BarChartMoney() {
-  return (<div style={{width: '50%'}}><Bar options={options} data={data} /></div>);
+  return (
+    <div style={{width: '70%'}}>
+      <Bar options={options} data={data} />
+    </div>);
 }

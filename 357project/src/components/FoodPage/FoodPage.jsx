@@ -7,10 +7,15 @@ import { Typography } from '@mui/material';
 function FoodPage() {
     return (
       <div className="FoodPageContainer">
-        <BarChartFood/> 
+        <div className="FoodPageTitle">
+          Less Consumed Foods
+        </div>
+          <BarChartFood></BarChartFood> 
         <div className="FoodTableContainer">
-          <div className="FoodTableTitle"><Typography variant='h6'>Be Careful of These Foods!!</Typography></div>
-          <FoodTable/>
+          <div className="FoodTableTitle">
+            Be Careful of These Foods!!
+          </div>
+          <FoodTable/>            
         </div>
       </div>
     );
