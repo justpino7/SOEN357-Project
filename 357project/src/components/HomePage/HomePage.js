@@ -50,11 +50,9 @@ export default function HomePage() {
                     </div>
                 </div>
                 <div className="OptionContainer">
-                    <Link to='/finance'>
                     <button className='FormButton'>
                         Add Food
                     </button>
-                    </Link>
 
                 </div>    
             </div>
