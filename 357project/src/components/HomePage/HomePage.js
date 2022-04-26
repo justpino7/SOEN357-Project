@@ -11,6 +11,7 @@ import  Onions from './FoodCards/Onions'
 import  Soup from './FoodCards/Soup'
 import  Strawberries from './FoodCards/Strawberries'
 import  Yogurt from './FoodCards/Yogurt'
+import { Typography } from '@mui/material'
 import './HomePage.css';
 
 export default function HomePage() {
@@ -53,6 +54,7 @@ export default function HomePage() {
                     <button className='FormButton'>
                         Add Food
                     </button>
+                    <Typography>The overview page will let you see your closest-expiring foods at a glance, and let you add new food and mark existing food as used. There is also a weekly calendar of your soon-expiring food for easier viewing. You would get notifications for food expiring the next days so that you may plan your meals accordingly.</Typography>
 
                 </div>    
             </div>

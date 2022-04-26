@@ -16,6 +16,7 @@ function MoneyPage() {
       <div className="PageTitle">
         <h1>Total Savings</h1>
       </div>
+      <Typography align='center'>The finance page will give you greater insight at the money you have saved, and the money you could save if you use all your food. You would get weekly notifications of your savings for that week.</Typography>
       <div className='ChartContainer'>
         <BarChartMoney></BarChartMoney>
       </div>

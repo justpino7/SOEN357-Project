@@ -13,7 +13,6 @@
     border-bottom-color: #70944C;
     height: 400px;
     margin: 2%;
-    margin-top: 10%;
     height: fit-content;
 }
 
@@ -25,8 +24,8 @@
 .PageTitle {
     font-size: 200%;
     background-color: #68a0b0;
-    margin-top: 10%;
-    margin-bottom: 5%;
+    margin-top: 5%;
+    margin-bottom: 2%;
     margin-right: auto;
     margin-left: auto;
     width: fit-content;

@@ -107,7 +107,7 @@ export default function Navbar() {
         </Popper>
       </div>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            Wastevio
+            Grub Guru
           </Typography>
         </Toolbar>
       </AppBar>
