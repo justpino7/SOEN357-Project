@@ -34,7 +34,7 @@ This project is to design a solution whose functionality helps users mitigate th
 
 ## FrontEnd
 
-- 
+- JS
 
 ## Coding Convention
 
