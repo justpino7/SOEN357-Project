@@ -2,7 +2,7 @@
 
 ## Website
 
-https://justpino7.github.io/
+https://spontaneous-sundae-2e45fa.netlify.app/
 
 ## Description
 This project is to design a solution whose functionality helps users mitigate the problem of food waste at home
